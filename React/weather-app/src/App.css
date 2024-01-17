@@ -1,6 +1,6 @@
 .App {
   padding: 20px;
-  background-color: #7e9bb2;
+  
   
 }
 nav{
@@ -16,7 +16,7 @@ nav{
 .weather-day{
   padding: 0 20px;
   min-width:170px;
-  max-height: 220px;
+  min-height: 220px;
   border: 1px solid gray;
 }
 .weather-day img{
