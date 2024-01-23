@@ -10,7 +10,7 @@ function Select() {
   return (
     <nav>
       <label htmlFor="cities">Select Your City : </label>
-      <select name="cities" id="cities" onChange={handleChange}>
+      <select name="cities" id="cities" onChange={handleChange} placeholder={`${cities}`}>
         <option value="null">Select</option>
         {cities.map((city) => (
           <option value={city.name} key={city.id}>
